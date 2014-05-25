@@ -18,6 +18,8 @@
 import socket
 
 import goatd
+assert goatd.VERSION == 1.1
+
 driver = goatd.Driver()
 
 def _float(v):
